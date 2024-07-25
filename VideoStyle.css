@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Couleur de fond */
+}
+
+.video-container {
+    text-align: center;
+}
+
+video {
+    width: 80%; /* Ajustez la largeur de la vidéo */
+    max-width: 800px; /* Largeur maximale de la vidéo */
+    border: 2px solid #00008B; /* Bordure autour de la vidéo */
+    border-radius: 10px; /* Bords arrondis */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('Final\ kdo111.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+.content {
+    text-align: center;
+    color: white; /* Couleur du texte pour contraster avec l'image de fond */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le contenu */
+    border-radius: 10px; /* Bords arrondis pour le conteneur */
+    margin: 50px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
